@@ -46,5 +46,3 @@ use ger_join;
  on funcionarios.cod_fun=dependentes.cod_fun
   where funcionarios.nome is null; #exclunding right
   
-  select * from funcionarios;
-  
